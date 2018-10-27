@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entites.DataRecordEntity" table="data_record" schema="homework02">
+        <id name="id" column="id"/>
+        <property name="username" column="username"/>
+        <property name="dataUsage" column="data_usage"/>
+        <property name="creationDate" column="creation_date"/>
+        <property name="dataType" column="data_type"/>
+    </class>
+</hibernate-mapping>
