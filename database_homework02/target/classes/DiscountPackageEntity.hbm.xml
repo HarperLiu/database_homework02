@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entites.DiscountPackageEntity" table="discount_package" schema="homework02">
+        <id name="pid" column="pid"/>
+        <property name="phone" column="phone"/>
+        <property name="message" column="message"/>
+        <property name="domesticData" column="domestic_data"/>
+        <property name="localData" column="local_data"/>
+        <property name="base" column="base"/>
+    </class>
+</hibernate-mapping>
